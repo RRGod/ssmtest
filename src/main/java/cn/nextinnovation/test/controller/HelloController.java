@@ -15,6 +15,7 @@ public class HelloController {
     @RequestMapping("hello")
     public ModelAndView toHello(){
         ModelAndView mv = new ModelAndView("hello");
+        System.out.println("哈哈");
         return mv;
     }
 }
